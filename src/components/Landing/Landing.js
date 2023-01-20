@@ -159,7 +159,8 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}    Munich, Germany</h6>
+                        <h6>{headerData.title}</h6>
+                        
                         <h1>{headerData.name}</h1>
                         <p>{headerData.subtitle}</p>
                         <p>{headerData.description}</p>
