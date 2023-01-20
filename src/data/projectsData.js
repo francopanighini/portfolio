@@ -14,6 +14,8 @@ import compiler from '../assets/png/compiler_prime.png'
 import ai from '../assets/png/ai_prime.png'
 import socks5 from '../assets/png/socks5_prime.png'
 import entrenapp from '../assets/png/entrenapp_prime.png'
+import catdog from '../assets/png/catdog_prime.png'
+
 
 
 
@@ -23,12 +25,12 @@ import entrenapp from '../assets/png/entrenapp_prime.png'
 export const projectsData = [
     {
         id: 1,
-        title: 'Markovia: Ecosystem Simulator',
-        desc: 'This project allows users to simulate a simple food chain and study darwinian processes on natural selection. Statistics on the populations\' demography and biology can be visualized in charts. Each individual can sense its environment and necessities and take rational decisions according to them. A simple, trained multilayer perceptron acts as a tiny brain for each individual.',
-        tags: ['Unity', 'C#', 'Blender'],
-        github: 'https://github.com/markoviateam/markovia',
-        link: 'https://markoviateam.github.io/markovia/',
-        image: markovia
+        title: 'Full-Stack Keras-based Classiﬁer',
+        desc: 'This project implements an end-to-end system for classifying pictures containing cats or dogs. A server accepts images by exposing endpoints, feeds them to a trained CNN and responds with a prediction value. The web client consumes the response and displays the results. Each module is containerized.',
+        tags: ['FastAPI', 'Python', 'React', 'Keras', 'Tensorflow', 'Docker'],
+        github: 'https://github.com/gonzabeade/cat-dog-classifier',
+        link: '',
+        image: catdog
     },
     {
         id: 2,
@@ -50,6 +52,15 @@ export const projectsData = [
     },
     {
         id: 4,
+        title: 'Markovia: Ecosystem Simulator',
+        desc: 'This project allows users to simulate a simple food chain and study darwinian processes on natural selection. Statistics on the populations\' demography and biology can be visualized in charts. Each individual can sense its environment and necessities and take rational decisions according to them. A simple, trained multilayer perceptron acts as a tiny brain for each individual.',
+        tags: ['Unity', 'C#', 'Blender'],
+        github: 'https://github.com/markoviateam/markovia',
+        link: 'https://markoviateam.github.io/markovia/',
+        image: markovia
+    },
+    {
+        id: 5,
         title: 'JSON-to-XHTML Compiler',
         desc: 'The purpose of this project is to design a compiler that generates XHTML files from syntactically-valid JSON scripts. The compiler takes constrained JSON files and generates dynamic XHTML files according to a set of rules. It is intended to be a modern, JSON-based, replacement for the classic XSLT language.',
         tags: ['C', 'Bison', 'Flex'],
@@ -58,7 +69,7 @@ export const projectsData = [
         image: compiler
     },
     {
-        id: 5,
+        id: 6,
         title: 'Kernel From Scratch',
         desc: 'Co-designed with my team a mini kernel that implements IPC mechanisms (pipes and shared memory), memory management, a shell and process switching.',
         tags: ['C', 'ASM'],
@@ -67,7 +78,7 @@ export const projectsData = [
         image: kernel
     },
     {
-        id: 6,
+        id: 7,
         title: 'AI Methods From Scratch',
         desc: 'This repository contains several AI algorithms and techniques implemented from scratch. Single and multi-layered perceptrons, genetic algorithms, Kohonen networks and autoencoders where implemented and subsequently used to solve engineering and data-analysis problems. ',
         tags: ['Python 3', 'Numpy', 'Matplotlib'],
@@ -76,7 +87,7 @@ export const projectsData = [
         image: ai
     },
     {
-        id: 7,
+        id: 8,
         title: 'Entrenapp - Mobile and Web Apps for Training',
         desc: 'Co-designed and implemented the frontend of both the mobile and web versions of a simple training app. Users can upload, modify execute and share routines for their day-to-day training sessions.',
         tags: ['Android Studio', 'CSS', 'Vue', 'Javascript'],
