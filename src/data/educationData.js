@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Ramjas College, Delhi University',
-        course: 'B.A. Honours History',
-        startYear: '2015',
+        institution: 'St. Ciaran\'s School, Buenos Aires',
+        course: 'High School Diploma in Languages',
+        startYear: '2014',
         endYear: '2018'
     },
     {
         id: 2,
-        institution: 'Delhi University',
-        course: 'M.A. History',
+        institution: 'Instituto Tecnológico de Buenos Aires',
+        course: 'Software Engineering Degree',
         startYear: '2019',
-        endYear: '2021'
+        endYear: '2024'
     },
     {
         id: 3,
-        institution: 'Masai School of Coding',
-        course: 'Fullstack Web-Development',
-        startYear: '2021',
-        endYear: 'Present'
+        institution: 'Technical University of Munich',
+        course: 'Exchange Student in Informatics',
+        startYear: '2022',
+        endYear: '2023'
     },
 ]

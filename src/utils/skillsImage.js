@@ -74,6 +74,8 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import spring from '../assets/svg/skills/spring.svg'
+
 
 
 export const skillsImage = (skill) => {
@@ -113,8 +115,8 @@ export const skillsImage = (skill) => {
             return vue;
         case 'bootstrap':
             return bootstrap;
-        case 'bulma':
-            return bulma;
+        case 'spring':
+            return spring;
         case 'capacitorjs':
             return capacitorjs;
         case 'coffeescript':

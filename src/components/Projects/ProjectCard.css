@@ -1,0 +1,67 @@
+
+.project {
+  display: flex;
+  flex-flow: column;
+}
+
+.project--photo {
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 20px;
+  border-color: rgba(245, 245, 245, 0.61); 
+  border-width: 0.05px;
+  border-style: solid;
+}
+
+.photo--bg {
+  height: auto;
+  border-radius: 5px;
+  width: 100%; 
+  position: relative;
+}
+
+.project--description {
+  flex-flow: column;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+
+.project--button {
+  width: 22px; 
+  margin: 3px;
+}
+
+.description--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description--header h1 {
+  font-size: 1rem;
+  display: inline;
+  font-style: normal;
+  font-family: var(--primaryFont);
+}
+
+.button-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.description--middle {
+  font-family: var(--primaryFont);
+  font-size: 14px; 
+  color: gainsboro;
+  text-align: left;
+  padding: 0.3rem 0; 
+}
+
+.techTag {
+  background-color: rgba(245, 245, 245, 0.61); 
+  margin: 0.4rem 0.4rem 0.4rem 0;
+  padding: 4px 12px; 
+  font-size: 14px; 
+  display: inline-block;
+  border-radius: 7px;
+  font-family: var(--primaryFont);
+}
