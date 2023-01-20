@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  width: 100%; 
   position: relative;
 }
 
@@ -64,7 +65,7 @@
 
 .lcr--content {
   width: 45%;
-  margin-right: 7rem;
+  margin-right: 12rem;
   font-family: var(--primaryFont);
   font-style: normal;
 }

@@ -52,7 +52,7 @@ function Projects() {
                     </div>
                     <div className="projects--body">
                         <div className="projects--bodyContainer">
-                            {projectsData.slice(0, 4).map(project => (
+                            {projectsData.slice(0, 6).map(project => (
                                 <SingleProject
                                     theme={theme}
                                     key={project.id}
@@ -66,7 +66,7 @@ function Projects() {
                                 />
                             ))}
                         </div> 
-
+{/* 
                         {projectsData.length > 3 && (
                             <div className="projects--viewAll">
                                 <Link to="/projects">
@@ -76,7 +76,7 @@ function Projects() {
                                     </button>
                                 </Link>
                             </div>
-                        )}
+                        )} */}
                     </div>
                 </div>
             )}

@@ -1,9 +1,13 @@
 import resume from '../assets/pdf/resume.pdf'
+import profilepic from '../assets/jpeg/profilepic.jpeg'
+
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Gonzalo Beade',
+    title: "Software Engineering Student",
+    description: "Keen teacher and passionate student who advocates for the openness of technological education to whoever craves it.",
+    description2: "I am very eager to deepen my current technical knowledge and broaden my experiences in areas I may not have explored before.",
+    image: profilepic,
     resumePdf: resume
 }
+
