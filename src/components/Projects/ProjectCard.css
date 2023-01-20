@@ -39,6 +39,7 @@
 .description--header h1 {
   font-size: 1rem;
   display: inline;
+  font-style: normal;
   font-family: var(--primaryFont);
 }
 

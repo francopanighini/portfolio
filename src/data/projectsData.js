@@ -7,8 +7,8 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
-import markovia from '../assets/png/markovia.png'
-import cryptuki from '../assets/png/cryptuki.png'
+import markovia from '../assets/png/markovia_prime.png'
+import cryptuki from '../assets/png/cryptuki_prime.png'
 import kernel from '../assets/png/kernel.png'
 import compiler from '../assets/png/compiler.png'
 import ai from '../assets/png/ai.png'
@@ -40,6 +40,15 @@ export const projectsData = [
     },
     {
         id: 3,
+        title: 'Socks5 Proxy From Scratch',
+        desc: 'Jointly designed and implemented with my team a fully-functional Socks5 proxy that fully satisfies RFC1928. The team also designed an additional control protocol in which authorised users could retrieve statistics from the Socks5 proxy server.',
+        tags: ['C'],
+        github: '',
+        link: 'http://pawserver.it.itba.edu.ar/paw-2022a-01',
+        image: cryptuki
+    },
+    {
+        id: 4,
         title: 'JSON-to-XHTML Compiler',
         desc: 'The purpose of this project is to design a compiler that generates XHTML files from syntactically-valid JSON scripts. The compiler takes constrained JSON files and generates dynamic XHTML files according to a set of rules. It is intended to be a modern, JSON-based, replacement for the classic XSLT language.',
         tags: ['C', 'Bison', 'Flex'],
@@ -48,8 +57,8 @@ export const projectsData = [
         image: compiler
     },
     {
-        id: 4,
-        title: 'Kernel from Scratch',
+        id: 5,
+        title: 'Kernel From Scratch',
         desc: 'Co-designed with my team a mini kernel that implements IPC mechanisms (pipes and shared memory), memory management, a shell and process switching.',
         tags: ['C', 'ASM'],
         github: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
@@ -57,7 +66,7 @@ export const projectsData = [
         image: kernel
     },
     {
-        id: 5,
+        id: 6,
         title: 'AI Methods From Scratch',
         desc: 'This repository contains several AI algorithms and techniques implemented from scratch. Single and multi-layered perceptrons, genetic algorithms, Kohonen networks and autoencoders where implemented and subsequently used to solve engineering and data-analysis problems. ',
         tags: ['Python 3', 'Numpy', 'Maplotlib'],
@@ -66,8 +75,8 @@ export const projectsData = [
         image: ai
     },
     {
-        id: 6,
-        title: 'Entrenapp - Mobile and Web app for Training',
+        id: 7,
+        title: 'Entrenapp - Mobile and Web Apps for Training',
         desc: 'Co-designed and implemented the frontend of both the mobile and web versions of a simple training app. Users can upload, modify execute and share routines for their day-to-day training sessions.',
         tags: ['Android Studio', 'CSS', 'Vue', 'Javascript'],
         github: 'https://github.com/iamrituyadav/Reliance_digital',

@@ -16,7 +16,7 @@ function ProjectCard({project}) {
   return (
     <div className="project">
         <div className="project--photo">
-            <img className="photo--bg" src={yellow}></img>
+            <img className="photo--bg" src={project.image}></img>
         </div>
 
         <div className="project--description">
