@@ -9,10 +9,11 @@ import eight from '../assets/svg/projects/eight.svg'
 
 import markovia from '../assets/png/markovia_prime.png'
 import cryptuki from '../assets/png/cryptuki_prime.png'
-import kernel from '../assets/png/kernel.png'
-import compiler from '../assets/png/compiler.png'
-import ai from '../assets/png/ai.png'
-import entrenapp from '../assets/png/entrenapp.png'
+import kernel from '../assets/png/kernel_prime.png'
+import compiler from '../assets/png/compiler_prime.png'
+import ai from '../assets/png/ai_prime.png'
+import socks5 from '../assets/png/socks5_prime.png'
+import entrenapp from '../assets/png/entrenapp_prime.png'
 
 
 
@@ -43,17 +44,17 @@ export const projectsData = [
         title: 'Socks5 Proxy From Scratch',
         desc: 'Jointly designed and implemented with my team a fully-functional Socks5 proxy that fully satisfies RFC1928. The team also designed an additional control protocol in which authorised users could retrieve statistics from the Socks5 proxy server.',
         tags: ['C'],
-        github: '',
-        link: 'http://pawserver.it.itba.edu.ar/paw-2022a-01',
-        image: cryptuki
+        link: '',
+        github: 'https://github.com/mdedeu/socks5-proxy',
+        image: socks5
     },
     {
         id: 4,
         title: 'JSON-to-XHTML Compiler',
         desc: 'The purpose of this project is to design a compiler that generates XHTML files from syntactically-valid JSON scripts. The compiler takes constrained JSON files and generates dynamic XHTML files according to a set of rules. It is intended to be a modern, JSON-based, replacement for the classic XSLT language.',
         tags: ['C', 'Bison', 'Flex'],
-        github: 'https://github.com/sreerag-rajan/educative-clone',
-        link: 'https://educative-clone.vercel.app/',
+        link: '',
+        github: 'https://github.com/camilaDiToro/TPTLA',
         image: compiler
     },
     {
@@ -61,17 +62,17 @@ export const projectsData = [
         title: 'Kernel From Scratch',
         desc: 'Co-designed with my team a mini kernel that implements IPC mechanisms (pipes and shared memory), memory management, a shell and process switching.',
         tags: ['C', 'ASM'],
-        github: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        link: 'https://reliance-digital-clone.herokuapp.com/',
+        github: 'https://github.com/salvaCasta276/OS-pure64',
+        link: '',
         image: kernel
     },
     {
         id: 6,
         title: 'AI Methods From Scratch',
         desc: 'This repository contains several AI algorithms and techniques implemented from scratch. Single and multi-layered perceptrons, genetic algorithms, Kohonen networks and autoencoders where implemented and subsequently used to solve engineering and data-analysis problems. ',
-        tags: ['Python 3', 'Numpy', 'Maplotlib'],
-        github: 'https://github.com/iamrituyadav/Reliance_digital',
-        link: 'https://reliance-digital-clone.herokuapp.com/',
+        tags: ['Python 3', 'Numpy', 'Matplotlib'],
+        github: 'https://github.com/matiapa/itba-sia',
+        link: '',
         image: ai
     },
     {
@@ -79,8 +80,7 @@ export const projectsData = [
         title: 'Entrenapp - Mobile and Web Apps for Training',
         desc: 'Co-designed and implemented the frontend of both the mobile and web versions of a simple training app. Users can upload, modify execute and share routines for their day-to-day training sessions.',
         tags: ['Android Studio', 'CSS', 'Vue', 'Javascript'],
-        github: 'https://github.com/iamrituyadav/Reliance_digital',
-        link: 'https://reliance-digital-clone.herokuapp.com/',
+        github: 'https://github.com/gbeade/EntrenappMobile',
         image: entrenapp
     },
 ]

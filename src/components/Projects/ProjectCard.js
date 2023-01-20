@@ -23,8 +23,8 @@ function ProjectCard({project}) {
             <div className="description--header"> 
                 <h1 style={{color: theme.primary}}>{project.title}</h1> 
                 <div className="button-container">
-                    <a  href="google.com"><img className="project--button" src={github}></img></a>
-                    <a href="google.com"><img className="project--button" src={share}></img></a>
+                    {project.github && <a href={project.github}><img className="project--button" src={github}></img></a>}
+                    {project.link && <a href={project.link}><img className="project--button" src={share}></img></a>}
                 </div>               
             </div>
             <div className="description--middle"> {project.desc}</div>
