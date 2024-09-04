@@ -1,9 +1,9 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'St. Ciaran\'s School, Buenos Aires',
-        course: 'High School Diploma in Languages',
-        startYear: '2014',
+        institution: 'Belgrano Day School, Buenos Aires',
+        course: 'Bilingual Bachelor in English, Specialization in Exact and Natural Sciences',
+        startYear: '2004',
         endYear: '2018'
     },
     {
@@ -11,13 +11,13 @@ export const educationData = [
         institution: 'Instituto Tecnológico de Buenos Aires',
         course: 'Software Engineering Degree',
         startYear: '2019',
-        endYear: '2024'
+        endYear: '2025'
     },
     {
         id: 3,
-        institution: 'Technical University of Munich',
-        course: 'Exchange Student in Informatics',
-        startYear: '2022',
-        endYear: '2023'
+        institution: 'Universitat Politècnica de Catalunya',
+        course: 'Master Exchange Student in Informatics',
+        startYear: '2023',
+        endYear: '2024'
     },
 ]

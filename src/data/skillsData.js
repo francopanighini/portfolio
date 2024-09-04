@@ -6,13 +6,14 @@
     'React',
     'PostgreSQL',
     'Tensorflow',
+    'Bootstrap',
     'Microsoft Office',
-    'Unity',
     'Java', 
-    'Flutter', 
     'C',
+    'Vue',
     'Numpy',
     'Figma',
+    'Docker',
     'Python'
 ]
 
