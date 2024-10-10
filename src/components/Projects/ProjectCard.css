@@ -2,15 +2,58 @@
 .project {
   display: flex;
   flex-flow: column;
+  transition: background-color 150ms ease-in-out;
 }
 
 .project--photo {
+  position: relative;
   background-color: transparent;
   padding: 1rem;
   border-radius: 20px;
-  border-color: rgba(245, 245, 245, 0.61); 
+  border-color: rgba(245, 245, 245, 0.61);
   border-width: 0.05px;
   border-style: solid;
+}
+
+.image-navigation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(-50%, -50%);
+}
+.arrow-button svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.arrow-button {
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  transition: background-color 0.3s, opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.arrow-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.arrow-button.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .photo--bg {
