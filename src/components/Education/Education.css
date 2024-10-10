@@ -25,7 +25,12 @@
 .education-description > h1{
     font-size: 3.5rem;
     font-family: var(--primaryFont);
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    left: 45%;
+    transform: translateX(-50%);
 }
 
 .education-card {
@@ -34,7 +39,6 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 150px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -108,8 +112,12 @@
         flex: 1;
         margin: auto;
     }    
+
     .education-description > h1{
         font-size: 3.2rem;
+        /* disable the parent positioning */
+        left: 0;
+        transform: none;
     }
     .education-card {
         width: 100%;
@@ -130,7 +138,6 @@
     .education-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
     }
     .educard-img {
         border-radius: 50%;

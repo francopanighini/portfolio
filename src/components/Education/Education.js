@@ -11,13 +11,13 @@ function Education() {
 
     const { theme } = useContext(ThemeContext);
     return (
-        <div className="education" id="education" style={{backgroundColor: theme.secondary}}>
-           
+        <div className="education" id="education" style={{ backgroundColor: theme.secondary }}>
+
             <div className="education-body">
                 <div className="education-description">
-                <h1 style={{color:theme.primary}}>Education</h1>
+                    <h1 style={{ color: theme.primary }}>Education</h1>
                     {educationData.map(edu => (
-                        <EducationCard 
+                        <EducationCard
                             key={edu.id}
                             id={edu.id}
                             institution={edu.institution}
@@ -28,7 +28,7 @@ function Education() {
                     ))}
                 </div>
                 <div className="education-image">
-                    <img src={theme.eduimg} alt=""/>
+                    <img src={theme.eduimg} alt="" />
                 </div>
             </div>
         </div>

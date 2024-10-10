@@ -6,6 +6,7 @@
     /* min-height: 190vh; */
     overflow-x: hidden;
     padding: 4rem;
+    padding-top: 1rem;
 }
 
 
@@ -34,12 +35,14 @@
 
 .projects--bodyContainer {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
     justify-content: center;
-    grid-gap: 4rem;
-    width: 85rem;
+    gap: 4rem;
+    width: 100%;
+    max-width: 75rem;
     margin: auto;
+    padding: 0 1rem;
 }
 
 .projects--viewAll {
@@ -70,9 +73,7 @@
 
 
 
-@media (min-width: 992px) and (max-width: 1380px) {
-
-}
+@media (min-width: 992px) and (max-width: 1380px) {}
 
 
 @media screen and (max-width: 1200px) {
@@ -97,28 +98,22 @@
         font-size: 2.5rem;
         margin-bottom: 20px;
     }
+
     .projects--viewAll {
         position: relative;
         margin-top: 4rem;
     }
+
     .projects--viewAll a {
         position: absolute;
         left: 50%;
-        transform: translateX(-50%);  
+        transform: translateX(-50%);
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {}
 
-}
-  
-@media only screen and (min-device-width: 320px) and (max-device-width: 
-  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
-
-}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {}
 
 
-@media only screen and (device-width: 768px) {
-
-}
-
+@media only screen and (device-width: 768px) {}
