@@ -1,99 +1,65 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
-
-import markovia from '../assets/png/markovia_prime.png'
-import cryptuki from '../assets/png/cryptuki_prime.png'
-import kernel from '../assets/png/kernel_prime.png'
-import compiler from '../assets/png/compiler_prime.png'
-import ai from '../assets/png/ai_prime.png'
-import socks5 from '../assets/png/socks5_prime.png'
-import entrenapp from '../assets/png/entrenapp_prime.png'
-import catdog from '../assets/png/catdog_prime.png'
-
-
-
-
-
+import customKernel1 from '../assets/png/tron_OS1.png'
+import customKernel2 from '../assets/png/tron_OS2.png'
+import voltex1 from '../assets/png/voltex_compiler1.png'
+import voltex2 from '../assets/png/voltex_compiler2.png'
+import voltex3 from '../assets/png/voltex_compiler3.png'
+import parallelMD5 from '../assets/png/parallel_MD5.png'
+import mario1 from '../assets/png/Mario_Bros1.png'
+import mario2 from '../assets/png/Mario_Bros2.png'
+import mario3 from '../assets/png/Mario_Bros3.png'
+import mario4 from '../assets/png/Mario_Bros4.png'
+import pop3Server1 from '../assets/png/POP3_Server1.png'
+import pop3Server2 from '../assets/png/POP3_Server2.png'
+import pop3Server3 from '../assets/png/POP3_Server3.png'
+import pop3Server4 from '../assets/png/POP3_Server4.png'
 
 
 export const projectsData = [
     {
         id: 1,
-        title: 'Full-Stack Keras-based Classiﬁer',
-        desc: 'This project implements an end-to-end system for classifying pictures containing cats or dogs. A server accepts images by exposing endpoints, feeds them to a trained CNN and responds with a prediction value. The web client consumes the response and displays the results. Each module is containerized.',
-        tags: ['FastAPI', 'Python', 'React', 'Keras', 'Tensorflow', 'Docker'],
-        github: 'https://github.com/gonzabeade/cat-dog-classifier',
-        link: '',
-        image: catdog
+        title: 'Custom Kernel and Shell From Scratch',
+        desc: 'Co-developed a bootable kernel which implements IPC mechanisms (shared memory and pipes), process scheduling, memory management, interruption and exception handling and a custom shell. It features an embedded Tron arcade game, demonstrating the kernel’s capability to handle interactive applications.',
+        tags: ['C', 'ASM', 'Docker', 'QEMU'],
+        github: 'https://github.com/fpanighini/tron-kernel',
+        link:'',
+        images: [customKernel1, customKernel2]
     },
     {
         id: 2,
-        title: 'P2P Cryptocurrency Marketplace',
-        desc: 'Jointly deployed with my team a fully-operational Buenos-Aires-based marketplace for cryptocurrencies. Both the backend and the frontend were designed from scratch.',
-        tags: ['Spring 4', 'Spring Security', 'Java', 'PostgreSQL', 'Hibernate', 'Jersey'],
-        github: '',
-        link: 'http://pawserver.it.itba.edu.ar/paw-2022a-01',
-        image: cryptuki
+        title: 'Voltex Compiler - Circuit Design Language',
+        desc: 'Co-designed an un-typed programming language and compiler that allows users to design and visualize electrical circuits. The language allows users to define basic components like batteries, resistors, capacitors, inductors, and LEDs, connect them in series or parallel, and generate LaTeX files representing the circuit. Designed for students and professors, the tool helps model circuits in a user-friendly format.',
+        tags: ['C', 'Bison', 'Flex'],
+        github: 'https://github.com/fpanighini/TLA-TPE',
+        link:'',
+        images: [voltex1, voltex2, voltex3]
     },
     {
         id: 3,
-        title: 'Socks5 Proxy From Scratch',
-        desc: 'Jointly designed and implemented with my team a fully-functional Socks5 proxy that fully satisfies RFC1928. The team also designed an additional control protocol in which authorised users could retrieve statistics from the Socks5 proxy server.',
-        tags: ['C'],
-        link: '',
-        github: 'https://github.com/mdedeu/socks5-proxy',
-        image: socks5
+        title: 'Super Mario Bros Clone',
+        desc: 'Developed a project that recreates the core mechanics of the original NES Super Mario Bros. game. Players control Mario to run, jump, collect coins, use power-ups, and defeat enemies within a timed setting. The game includes two levels with destructible blocks, two enemy types, power-ups like Super Mushrooms and Stars, and a flagpole at the end of each level. A graphical user interface (GUI) displays the player\’s score, coin count, current world, and remaining time.',
+        tags: ['HTML', 'JavaScript'],
+        github: 'https://github.com/fpanighini/ProyectoJC/tree/improved-front',
+        link:'',
+        images: [mario1, mario2, mario3, mario4]
     },
     {
         id: 4,
-        title: 'Markovia: Ecosystem Simulator',
-        desc: 'This project allows users to simulate a simple food chain and study darwinian processes on natural selection. Statistics on the populations\' demography and biology can be visualized in charts. Each individual can sense its environment and necessities and take rational decisions according to them. A simple, trained multilayer perceptron acts as a tiny brain for each individual.',
-        tags: ['Unity', 'C#', 'Blender'],
-        github: 'https://github.com/markoviateam/markovia',
-        link: 'https://markoviateam.github.io/markovia/',
-        image: markovia
+        title: 'POP3 Server From Scratch',
+        desc: 'Collaborated on the design and implementation of a fully-functional POP3 server adhering to RFC 1939 and RFC 2449 standards. Developed a custom monitoring and configuration protocol, RAID (Retrieve and Inspect Data Protocol), which provides POP3-like commands for server administration over TCP.',
+        tags: ['C'],
+        github: 'https://github.com/fpanighini/c-pop3-server',
+        link:'',
+        images: [pop3Server1, pop3Server2, pop3Server3, pop3Server4]
     },
     {
         id: 5,
-        title: 'JSON-to-XHTML Compiler',
-        desc: 'The purpose of this project is to design a compiler that generates XHTML files from syntactically-valid JSON scripts. The compiler takes constrained JSON files and generates dynamic XHTML files according to a set of rules. It is intended to be a modern, JSON-based, replacement for the classic XSLT language.',
-        tags: ['C', 'Bison', 'Flex'],
-        link: '',
-        github: 'https://github.com/camilaDiToro/TPTLA',
-        image: compiler
-    },
-    {
-        id: 6,
-        title: 'Kernel From Scratch',
-        desc: 'Co-designed with my team a mini kernel that implements IPC mechanisms (pipes and shared memory), memory management, a shell and process switching.',
-        tags: ['C', 'ASM'],
-        github: 'https://github.com/salvaCasta276/OS-pure64',
-        link: '',
-        image: kernel
-    },
-    {
-        id: 7,
-        title: 'AI Methods From Scratch',
-        desc: 'This repository contains several AI algorithms and techniques implemented from scratch. Single and multi-layered perceptrons, genetic algorithms, Kohonen networks and autoencoders where implemented and subsequently used to solve engineering and data-analysis problems. ',
-        tags: ['Python 3', 'Numpy', 'Matplotlib'],
-        github: 'https://github.com/matiapa/itba-sia',
-        link: '',
-        image: ai
-    },
-    {
-        id: 8,
-        title: 'Entrenapp - Mobile and Web Apps for Training',
-        desc: 'Co-designed and implemented the frontend of both the mobile and web versions of a simple training app. Users can upload, modify execute and share routines for their day-to-day training sessions.',
-        tags: ['Android Studio', 'CSS', 'Vue', 'Javascript'],
-        github: 'https://github.com/gbeade/EntrenappMobile',
-        image: entrenapp
-    },
+        title: 'Parallel MD5 Hashing',
+        desc: 'This project enables simultaneous MD5 hashing on multiple files using multiprocessing. It includes an application for managing worker processes, a worker for computing MD5 hashes, and a viewer for displaying results. The system is containerized using Docker and employs POSIX, shared memory, pipes, and IPC mechanisms.',
+        tags: ['C', 'Docker'],
+        github: 'https://github.com/fpanighini/grupOS',
+        link:'',
+        images: [parallelMD5]
+    }
 ]
 
 
