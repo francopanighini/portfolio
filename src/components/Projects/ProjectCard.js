@@ -49,8 +49,16 @@ function ProjectCard({ project }) {
                     <div className="description--header">
                         <h1 style={{ color: theme.primary }}>{project.title}</h1>
                         <div className="button-container">
-                            {project.github && <a href={project.github}><img className="project--button" src={github} alt="GitHub" /></a>}
-                            {project.link && <a href={project.link}><img className="project--button" src={share} alt="Share" /></a>}
+                            {project.github && (
+                                <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                    <img className="project--button" src={github} alt="GitHub" />
+                                </a>
+                            )}
+                            {project.link && (
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                    <img className="project--button" src={share} alt="Share" />
+                                </a>
+                            )}
                         </div>
                     </div>
                     <div className="description--middle">{project.desc}</div>

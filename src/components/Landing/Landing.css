@@ -65,7 +65,7 @@
 
 .lcr--content {
   width: 45%;
-  margin-right: 12rem;
+  margin-right: 10rem;
   font-family: var(--primaryFont);
   font-style: normal;
 }
@@ -148,7 +148,7 @@
   .lcr--content {
     width: 60%;
     margin-top: 10%;
-    margin-right: 6%;
+    margin-right: 5%;
   }
 
   .lcr-buttonContainer {
