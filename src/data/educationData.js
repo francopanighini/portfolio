@@ -16,7 +16,7 @@ export const educationData = [
     {
         id: 3,
         institution: 'Universitat Politècnica de Catalunya',
-        course: 'Master\'s degree - Exchange Student in Informatics',
+        course: 'Master\'s Degree in Informatics - Exchange Student',
         startYear: '2023',
         endYear: '2024'
     },

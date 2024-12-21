@@ -17,7 +17,7 @@
 .landing--img {
   --img-size: 400px;
   position: absolute;
-  left: 35%;
+  left: 25%;
   transform: translateX(-50%);
   width: var(--img-size);
   height: var(--img-size);
@@ -28,7 +28,7 @@
 }
 
 .landing--container-left {
-  flex: 35%;
+  flex: 25%;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -54,7 +54,7 @@
 }
 
 .landing--container-right {
-  flex: 65%;
+  flex: 75%;
   height: 100%;
   background-color: #eaeaea;
   display: flex;
@@ -64,7 +64,8 @@
 }
 
 .lcr--content {
-  width: 45%;
+  width: 50%;
+  padding-left: 2rem;
   margin-right: 10rem;
   font-family: var(--primaryFont);
   font-style: normal;

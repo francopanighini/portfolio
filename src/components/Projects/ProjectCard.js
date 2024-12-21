@@ -61,7 +61,7 @@ function ProjectCard({ project }) {
                             )}
                         </div>
                     </div>
-                    <div className="description--middle">{project.desc}</div>
+                    <div className="description--middle" dangerouslySetInnerHTML={{ __html: project.desc }}></div>
                     <div className="description--tags">
                         {project.tags.map((tag, index) => <div key={index} className="techTag">{tag}</div>)}
                     </div>
