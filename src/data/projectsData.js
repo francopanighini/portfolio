@@ -60,7 +60,7 @@ export const projectsData = [
     {
         id: 5,
         title: 'Super Mario Bros Clone',
-        desc: 'Developed a project that recreates the core mechanics of the original NES Super Mario Bros. game. Players control Mario to run, jump, collect coins, use power-ups, and defeat enemies within a timed setting. The game includes two levels with destructible blocks, two enemy types, power-ups like Super Mushrooms and Stars, and a flagpole at the end of each level. A graphical user interface (GUI) displays the player\’s score, coin count, current world, and remaining time.',
+        desc: 'Developed a project that recreates the core mechanics of the original NES Super Mario Bros. game. Players control Mario to run, jump, collect coins, use power-ups, and defeat enemies within a timed setting. The game includes two levels with destructible blocks, two enemy types, power-ups like Super Mushrooms and Stars, and a flagpole at the end of each level. A graphical user interface (GUI) displays the player’s score, coin count, current world, and remaining time.',
         tags: ['HTML', 'JavaScript'],
         github: 'https://github.com/fpanighini/ProyectoJC/tree/improved-front',
         link:'https://mario-jc.vercel.app/',
